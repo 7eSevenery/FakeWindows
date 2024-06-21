@@ -11,7 +11,7 @@ fn read_all_item(key: &RegKey, subkey: &str) -> io::Result<Vec<String>> {
 
     // 遍历出子项
     for sub_item in item.enum_keys().filter_map(Result::ok) {
-        // 加入到数组中s
+        // 加入到数组中
         items.push(sub_item);
     }
 
