@@ -1,0 +1,7 @@
+[package]
+name = "FakeWindows"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winreg = "0.52"
